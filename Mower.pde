@@ -17,9 +17,9 @@ class Mower {
   
   void update() {
     this.trail.add(this.pos.copy());
-    /*if (this.trail.size() > 200) {
+    if (this.trail.size() > 200) {
       this.trail.remove(0);
-    }*/
+    }
     
     if (this.pos.x > width - this.size / 2) {
       this.angleX *= random(-1, -5);

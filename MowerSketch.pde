@@ -4,7 +4,7 @@ void setup() {
   size(600,400);
   
   PVector pos = new PVector(500, 100);
-  mower = new Mower(pos, 20);
+  mower = new Mower(pos, 40);
 }
 
 // For each frame
