@@ -45,7 +45,7 @@ class Mower {
       ellipse(this.trail.get(i).x, this.trail.get(i).y, this.size, this.size);
     }
     
-    fill(255, 100, 100);
+    fill(155, 100, 100);
     ellipse(this.pos.x, this.pos.y, this.size, this.size);
   }
 }
